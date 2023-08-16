@@ -74,7 +74,7 @@ margin: 0 auto;
 
 .page-header .container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -123,6 +123,7 @@ margin: 0 auto;
 .address-class-name {
   display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 
 .contact-link {
@@ -152,6 +153,8 @@ margin: 0 auto;
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .my-button {
@@ -161,6 +164,7 @@ margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   background-color: #4D5AE5;
@@ -355,5 +359,6 @@ margin: 0 auto;
   line-height: 1.5;
   color: var(--footer-color, #F4F4FD);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
